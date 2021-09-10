@@ -1,5 +1,10 @@
-public class LemonadeStand {
+import javax.swing.*;
 
+public class LemonadeStand {
+    static double price16 = 0.50;
+    static double price20 = 0.99;
+    static double tax = 7.5;
+         /* Global callouts, can be used anywhere
     /*
         You run a very successful Lemonade Stand.
 
@@ -16,6 +21,22 @@ public class LemonadeStand {
      */
 
     public static void main(String[] args) {
+Lemonade();
+
+    }
+    public static void Lemonade(double num16, double num20){
+        double cost16 = num16 * price16;
+         double cost20 = num20 * price20;
+
+         double total16 = cost16 (1 * (tax/100.00));
+         double total20 =  cost20 (1 *(tax/100.00));
+
+         double total = total16 + total20;
+
+         String message = "your Order: ";
+         message += "\n\t16 oz " + round.format(num16);
+         message += "\n\t20 oz " + round.format(num20);
+         message += "\n\n\tTotal: " + round.format(Total);
 
     }
 
