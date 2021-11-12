@@ -19,7 +19,7 @@ public class ChangingColorsGUI {
     */
     Color panelBackground= new Color(33, 33, 33);
     Color buttonForeground= new Color(202, 217, 179);
-    Color buttonBackground= new Color(109, 152, 134);
+    Color buttonBackground= new Color(101, 5, 252);
 
     public ChangingColorsGUI(){
 
